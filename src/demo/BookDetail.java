@@ -1,8 +1,7 @@
 package demo;
+
 import javax.xml.bind.annotation.XmlRootElement;
-/**
- * Created by 150436p on 11/21/2016.
- */
+
 @XmlRootElement
 public class BookDetail {
     private String bookId = null;

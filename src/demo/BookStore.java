@@ -1,13 +1,12 @@
 package demo;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
-/**
- * Created by 150436p on 11/21/2016.
- */
+
 @Path("/books")
 public class BookStore {
     @GET
